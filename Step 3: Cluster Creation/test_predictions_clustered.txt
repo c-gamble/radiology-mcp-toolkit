@@ -1,0 +1,64 @@
+This .txt file is for tutorial purposes only. Please avoid saving your dictionary output by combining multiple steps into a single .py file. If you must save your dictionary output, please use a .pkl file or other efficient storage method.
+
+test_predictions_clustered = {
+    'Example 1': {
+        'n_clusters': 2,
+        'clusters': {
+            0: {
+                'IPH': {
+                    'HNU': '0.70839',
+                    'bounding_box': '0.413612 0.730742 0.0702935 0.0981927',
+                },
+                'IVH': {
+                    'HNU': '2.99804e-06',
+                    'bounding_box': '0.411818 0.72794 0.0759552 0.108998',
+                },
+                'SDH': {
+                    'HNU': '3.98859e-06',
+                    'bounding_box': '0.407106 0.732266 0.0794163 0.104702',
+                },
+                'EDH': {
+                    'HNU': '3.15208e-06',
+                    'bounding_box': '0.411818 0.72794 0.0759552 0.108998',
+                },
+            },
+            1: {
+                'SAH': {
+                    'HNU': '3.42809e-05',
+                    'bounding_box': '0.0159164 0.0246763 0.0318328 0.0493525',
+                },
+            },
+        },
+    },
+    'Example 2': {
+        'n_clusters': 3,
+        'clusters': {
+            0: {
+                'IPH': {
+                    'HNU': '0.874747',
+                    'bounding_box': '0.412805 0.731809 0.0888939 0.121741',
+                },
+                'SDH': {
+                    'HNU': '3.74407e-06',
+                    'bounding_box': '0.413257 0.731797 0.0889038 0.121097',
+                },
+                'EDH': {
+                    'HNU': '7.45276e-06',
+                    'bounding_box': '0.413257 0.731797 0.0889038 0.121097',
+                },
+            },
+            1: {
+                'IVH': {
+                    'HNU': '3.37699e-06',
+                    'bounding_box': '0.745369 0.291365 0.064467 0.0515996',
+                },
+            },
+            2: {
+                'SAH': {
+                    'HNU': '3.85744e-05',
+                    'bounding_box': '0.0153733 0.0243092 0.0307466 0.0486185',
+                },
+            },
+        },
+    },
+}
