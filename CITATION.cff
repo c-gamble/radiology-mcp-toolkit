@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this repository or its accompanying supplemental materials, please cite it as below."
+authors:
+- family-names: "Gamble"
+  given-names: "Cooper"
+  orcid: "https://orcid.org/0009-0009-5139-4875"
+- family-names: "Faghani"
+  given-names: "Shahriar"
+  orcid: "https://orcid.org/0000-0003-3275-2971"
+- family-names: "Erickson"
+  given-names: "Bradley J."
+  orcid: "https://orcid.org/0000-0001-7926-6095"
+title: "Toolkit for Mondrian Conformal Prediction in Radiology"
+version: 1.0.0
+date-released: 2024-01-10
+url: "https://github.com/c-gamble/radiology-mcp-toolkit"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Gamble"
+    given-names: "Cooper"
+    orcid: "https://orcid.org/0009-0009-5139-4875"
+  - family-names: "Faghani"
+    given-names: "Shahriar"
+    orcid: "https://orcid.org/0000-0003-3275-2971"
+  - family-names: "Erickson"
+    given-names: "Bradley J."
+    orcid: "https://orcid.org/0000-0001-7926-6095"
+  doi: "10.0000/00000"
+  journal: "Radiology: Artificial Intelligence"
+  month: 1
+  start: 1 # First page number
+  end: 10 # Last page number
+  title: "Toward Clinically Trustworthy Deep Learning: Applying Conformal Prediction to Intracranial Hemorrhage Detection"
+  issue: 1
+  volume: 1
+  year: 2024

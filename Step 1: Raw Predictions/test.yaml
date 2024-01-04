@@ -1,0 +1,11 @@
+path: "../example_data/"
+train: N/A
+val: test
+nc: 5
+
+names:
+  0: IPH
+  1: IVH
+  2: SDH
+  3: EDH
+  4: SAH
