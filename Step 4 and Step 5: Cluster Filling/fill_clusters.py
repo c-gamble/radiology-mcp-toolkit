@@ -6,7 +6,7 @@ from typing import List
 from tqdm.auto import tqdm
 
 # Define IoU Threshold. This is the value found to be optimal for our task, but we encourage you to test values between 0 and 1 for your dataset/task.
-IOU_THRESHOLD: float = 0.6
+IOU_THRESHOLD: float = 0.25
 
 int_to_label: dict = {0: 'IPH', 1: 'IVH', 2: 'SDH', 3: 'EDH', 4: 'SAH'}
 h_types: List[str] = list(int_to_label.values())

@@ -8,7 +8,7 @@ from collections import defaultdict
 from tqdm.auto import tqdm
 
 # Define IoU Threshold. This is the value found to be optimal for our task, but we encourage you to test values between 0 and 1 for your dataset/task.
-IOU_THRESHOLD: float = 0.6
+IOU_THRESHOLD: float = 0.25
 
 # Read the post-suppression predictions from Step 2.
 with open("./Step 2: Class-wise NMS/test_predictions_retained.txt", 'r') as f:
