@@ -3,6 +3,7 @@ This repository contains a toolkit for implementing Mondrian conformal predictio
 ![MCP Algorithm](https://cq500-mcp.s3.amazonaws.com/Algorithm.png)
 
 ## Features
+- [Video tutorial](https://youtu.be/tccprwxq74Q) demonstrating the MCP process
 - Sample inference script for multilabel hemorrhage detection on head CT slices using MCP 
 - Weights for state-of-the-art ICH detection YOLOv8 model (download [here](https://cq500-mcp.s3.amazonaws.com/yolo-v8-final-weights.pt))
 - Detailed descriptions of methods (via comments) for each major step of the MCP process
@@ -11,6 +12,7 @@ This repository contains a toolkit for implementing Mondrian conformal predictio
 - Instructions for applying our MCP methodology to other use cases
 
 ## Usage
+In addition to the instructions below, please refer to the video tutorial [here](https://youtu.be/tccprwxq74Q) for a more detailed explanation of the MCP process.
 #### Setup and Installation
 1. It is strongly encouraged that you have access to a GPU to accelerate your model training and inference time. If you have already trained a model or are using our weights, inference is possible on a CPU but it will be markedly slower.
 2. Clone this repository by running the following command: ```git clone https://github.com/c-gamble/radiology-mcp-toolkit.git```
