@@ -4,7 +4,7 @@
 ## Prerequisites
 - [ ] A predefined IoU threshold value (edit line 9 in ```fill_clusters.py``` if you want to use a value other than 0.25)
     - It is recommended that you optimize this value using your desired metric for your specific task on the test dataset by varying the IoU threshold between 0.0 and 1.0 at intervals of 0.05 (or whichever granularity your compute access can support).
-- [ ] Suppressed test inference outputs formatted as shown in ```Step 3: Cluster Creation/test_predictions_clustered.txt```
+- [ ] Dictionary of clusters formatted as shown in ```Step 3: Cluster Creation/test_predictions_clustered.txt```
 
 ## Return Values
 - [x] Dictionary containing cluster counts and filled cluster details for each sample. A filled cluster contains the highest-confidence bounding boxes whose IoU with the cluster-delimiting bounding box exceeds the user-specified threshold for each hemorrhage class.
