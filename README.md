@@ -29,9 +29,8 @@ This repository contains a toolkit for implementing Mondrian conformal predictio
 5. Follow the instructions in ```Step 3: Cluster Creation/``` to generate clusters based on a user-specified intersection over union (IoU) threshold.
 6. Follow the instructions in ```Step 4 and Step 5: Cluster Creation/``` to fill the clusters you created in Step 4 with a max-confidence prediction for each hemorrhage class.
 7. Follow the instructions in ```Step 6: Prediction Sets/``` to obtain your final prediction sets, statistically guaranteed to contain the ground truth at a user-specified HNU value.
-#### Interpreting Results
 
 ## Bugs and Feature Requests
-
+We are always seeking to improve our work and welcome any feedback you may have. If you find a bug or have a feature request, please open an issue on this repository. We will do our best to respond to your request in a timely manner. Alternatively, you may contact the authors directly at [Gamble.Cooper@mayo.edu](mailto:gamble.cooper@mayo.edu).
 ## Citation
 If you find this work useful, please use the appropriate citation format by clicking "Cite this repository" in the About section.
