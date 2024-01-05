@@ -1,6 +1,6 @@
 # Step 1: Raw Predictions
 
-## Prerequisite
+## Prerequisites
 - [ ] A trained model and accompanying weights
 - [ ] A directory of test images and labels organized as shown in ```example_data/```
 ## Return Values
